@@ -4,7 +4,6 @@ function inicio(){
 
 
 document.querySelector("#btncalcular").addEventListener("click",calcular)
-
 }
 
 function calcular(){
