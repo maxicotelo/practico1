@@ -15,10 +15,8 @@ function calcular(){
     let valor3 = parseInt (document.querySelector("#valor3").value)
 
 
+    let calcular =  Math.pow(valor1,2) - valor2 - valor3
 
-let calcular = valor1 + valor2 - valor3
+    document.querySelector("#resultado").textContent = "resultado: " + calcular
 
-document.querySelector("#resultado").textContent = "resultado: " + calcular
-
-
-}
+    }
